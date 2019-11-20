@@ -66,7 +66,8 @@
                     1 - uv.y
                 );
 
-                // uv2 = lerp(_uvTopLeft.xy, _uvTopRight.xy, uv.x) - 0.5;
+                if (uv2.x < 0 || uv2.x > 1) { return fixed4(0, 0, 0, 0); }
+                if (uv2.y < 0 || uv2.y > 1) { return fixed4(0, 0, 0, 0); }
 
                 return tex2D(_MainTex, uv2);
             }
