@@ -13,9 +13,6 @@ public class Mapper : MonoBehaviour
 
     void Update()
     {
-        Debug.Log(GetUV(_mapperTopLeft));
-        Debug.Log(GetUV(_mapperTopRight));
-
         _material.SetVector("_uvTopLeft", GetUV(_mapperTopLeft));
         _material.SetVector("_uvTopRight", GetUV(_mapperTopRight));
         _material.SetVector("_uvBottomLeft", GetUV(_mapperBottomLeft));

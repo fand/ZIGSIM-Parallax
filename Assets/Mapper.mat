@@ -25,7 +25,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - _uvBottomLeft: {r: 0.25470185, g: 0.23593867, b: 0, a: 0}
-    - _uvBottomRight: {r: 0.74529815, g: 0.23593867, b: 0, a: 0}
-    - _uvTopLeft: {r: 0.22657436, g: 0.7688422, b: 0, a: 0}
-    - _uvTopRight: {r: 0.77342564, g: 0.7688422, b: 0, a: 0}
+    - _uvBottomLeft: {r: 0.2655965, g: 0.1964482, b: 0, a: 0}
+    - _uvBottomRight: {r: 0.7252546, g: 0.28204218, b: 0, a: 0}
+    - _uvTopLeft: {r: 0.2655965, g: 0.8035518, b: 0, a: 0}
+    - _uvTopRight: {r: 0.7252546, g: 0.71795785, b: 0, a: 0}
