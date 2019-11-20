@@ -13,8 +13,18 @@ public class Mapper : MonoBehaviour
 
     void Update()
     {
+        Debug.Log(GetUV(_mapperTopLeft));
+        Debug.Log(GetUV(_mapperTopRight));
 
-        Vector3 screenPos = _sceneCamera.WorldToScreenPoint(_mapperTopLeft.position);
-        _material.SetVector(0, screenPos);
+        _material.SetVector("_uvTopLeft", GetUV(_mapperTopLeft));
+        _material.SetVector("_uvTopRight", GetUV(_mapperTopRight));
+        _material.SetVector("_uvBottomLeft", GetUV(_mapperBottomLeft));
+        _material.SetVector("_uvBottomRight", GetUV(_mapperBottomRight));
+    }
+
+    Vector2 GetUV(Transform target)
+    {
+        var p = _sceneCamera.WorldToScreenPoint(target.position);
+        return new Vector2(p.x / Screen.width,  p.y / Screen.height);
     }
 }

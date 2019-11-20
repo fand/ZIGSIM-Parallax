@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Mapping
-  m_Shader: {fileID: 4800000, guid: 2657b1dd5084c4e40b071c3dccdbf6cc, type: 3}
+  m_Name: Mapper
+  m_Shader: {fileID: 4800000, guid: 0725fbb6aae19454fae9d4f59e20e485, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -19,13 +19,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _SampleTexture2D_9531415F_Texture:
-        m_Texture: {fileID: 8400000, guid: 50b0a4c183e0c45e7ab6b431b2c5d90e, type: 2}
+    - _MainTex:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
     m_Colors:
-    - _uvBottomLeft: {r: 0, g: 0, b: 0, a: 0}
-    - _uvBottomRight: {r: 0, g: 0, b: 0, a: 0}
-    - _uvTopLeft: {r: 0, g: 0, b: 0, a: 0}
-    - _uvTopRight: {r: 0, g: 0, b: 0, a: 0}
+    - _uvBottomLeft: {r: 0.25470185, g: 0.23593867, b: 0, a: 0}
+    - _uvBottomRight: {r: 0.74529815, g: 0.23593867, b: 0, a: 0}
+    - _uvTopLeft: {r: 0.22657436, g: 0.7688422, b: 0, a: 0}
+    - _uvTopRight: {r: 0.77342564, g: 0.7688422, b: 0, a: 0}
